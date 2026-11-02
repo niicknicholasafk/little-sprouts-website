@@ -1,11 +1,11 @@
 {
- "name": "Little Sprouts",
- "tagline": "Learning Centre",
- "navAbout": "About",
- "navProgrammes": "Programmes",
- "navClasses": "Classes and slots",
- "navGallery": "Gallery",
- "navTeam": "Team",
- "navFaq": "FAQ",
- "navCta": "Reserve a spot"
+  "navTeam": "Team",
+  "navClasses": "Classes and Slots",
+  "navAbout": "About Us",
+  "name": "Little Sprouts",
+  "navCta": "Reserve a spot",
+  "tagline": "Learning Centre",
+  "navGallery": "Gallery",
+  "navFaq": "FAQ",
+  "navProgrammes": "Programmes"
 }
