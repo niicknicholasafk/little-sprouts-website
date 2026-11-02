@@ -1,0 +1,139 @@
+{
+ "tuitionEnabled": true,
+ "name": "Little Sprouts",
+ "tagline": "Learning Centre",
+ "heroTitle": "A bright start for every little learner",
+ "heroText": "Warm, attentive daycare on weekdays, and small tuition classes for curious minds on weekends and weeknights.",
+ "availabilityNote": "Spots are updated by our team. Reserve online and we will confirm within one working day.",
+ "features": [
+  {
+   "title": "Small, nurturing groups",
+   "text": "Low child-to-teacher ratios so every child is seen, heard and encouraged."
+  },
+  {
+   "title": "Learning through play",
+   "text": "Hands-on activities in language, maths and science that build confidence early."
+  },
+  {
+   "title": "Schedules that fit families",
+   "text": "Weekday daycare, plus weekend and weeknight tuition around busy routines."
+  }
+ ],
+ "phone": "+60 12 345 6789",
+ "email": "hello@example.com",
+ "address": "123 Example Street",
+ "hours": "Monday to Friday, 7:30 am to 6:00 pm",
+ "heroImage": "images/hero.svg",
+ "aboutImage": "images/g2.svg",
+ "aboutTitle": "A second home where curiosity comes first",
+ "aboutText": "We are a small, family-run centre for children aged 2 to 11. Our teachers know every child by name, celebrate small wins, and make learning feel like play.",
+ "stats": [
+  {
+   "value": "12 years",
+   "label": "caring for local families"
+  },
+  {
+   "value": "1 to 6",
+   "label": "teacher to child ratio"
+  },
+  {
+   "value": "200+",
+   "label": "happy children so far"
+  }
+ ],
+ "programmes": [
+  {
+   "type": "daycare",
+   "title": "Weekday daycare",
+   "text": "Safe, nurturing care from Monday to Friday, with meals, rest, creative play and outdoor time built into the day.",
+   "image": "images/g4.svg"
+  },
+  {
+   "type": "tuition",
+   "title": "Tuition classes",
+   "text": "Small-group classes on weekends and weeknights in maths, English and science, taught through games and hands-on activities.",
+   "image": "images/g5.svg"
+  }
+ ],
+ "gallery": [
+  {
+   "image": "images/g1.svg",
+   "caption": "Story time"
+  },
+  {
+   "image": "images/g3.svg",
+   "caption": "Little scientists"
+  },
+  {
+   "image": "images/g2.svg",
+   "caption": "Art corner"
+  },
+  {
+   "image": "images/g6.svg",
+   "caption": "Music and movement"
+  },
+  {
+   "image": "images/g4.svg",
+   "caption": "Outdoor play"
+  }
+ ],
+ "teachers": [
+  {
+   "name": "Ms. Sofia Tan",
+   "role": "Head of daycare",
+   "bio": "Fifteen years in early childhood education. Loves story time and muddy boots.",
+   "photo": "images/t1.svg"
+  },
+  {
+   "name": "Mr. Daniel Reyes",
+   "role": "Maths and science tutor",
+   "bio": "Turns tricky sums and big questions into games children ask to play again.",
+   "photo": "images/t2.svg"
+  },
+  {
+   "name": "Ms. Hannah Okafor",
+   "role": "English and phonics tutor",
+   "bio": "Helps young readers find their voice, one confident sentence at a time.",
+   "photo": "images/t3.svg"
+  }
+ ],
+ "testimonials": [
+  {
+   "quote": "My son runs in every morning. The teachers genuinely know him.",
+   "name": "Aisha",
+   "detail": "mum of Zayn, age 5"
+  },
+  {
+   "quote": "Saturday maths went from a chore to his favourite part of the week.",
+   "name": "Marcus",
+   "detail": "dad of Elle, age 7"
+  },
+  {
+   "quote": "Clear communication, lovely staff, and I can see which classes have space.",
+   "name": "Priya",
+   "detail": "mum of twins, age 4"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What ages do you accept?",
+   "a": "Daycare is for ages 2 to 9. Tuition classes are grouped by age, shown on each class."
+  },
+  {
+   "q": "How do reservations work?",
+   "a": "Choose a class, send the form, and we confirm within one working day. Spots are held once confirmed."
+  },
+  {
+   "q": "Can we try a class first?",
+   "a": "Yes. Ask for a trial session in the message box and we will arrange one when a spot is open."
+  },
+  {
+   "q": "What if a class is full?",
+   "a": "Join the waitlist from the class and we will contact you as soon as a place opens."
+  },
+  {
+   "q": "What is included in daycare fees?",
+   "a": "Supervised care, learning activities, snacks and lunch. Please tell us about any allergies when you enrol."
+  }
+ ]
+}
