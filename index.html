@@ -114,41 +114,41 @@ details p{margin-top:12px;color:var(--mute)}
 </style></head>
 <body>
 <header><div class="wrap nav">
- <a class="brand" href="#top"><span class="logo"></span><span><span id="brandName">Little Sprouts</span><small id="tag">Learning Centre</small></span></a>
+ <a class="brand" href="#top"><span class="logo"></span><span><span id="brandName" data-c="header.name">Little Sprouts</span><small id="tag" data-c="header.tagline">Learning Centre</small></span></a>
  <button class="menu" aria-label="Menu" onclick="document.body.classList.toggle('open')">Menu</button>
- <nav><a href="#why">About</a><a href="#programmes">Programmes</a><a href="#classes">Classes and slots</a><a href="#gallery">Gallery</a><a href="#team">Team</a><a href="#faq">FAQ</a><a class="btn" href="#book">Reserve a spot</a></nav>
+ <nav><a href="#why" data-c="header.navAbout">About</a><a href="#programmes" data-c="header.navProgrammes">Programmes</a><a href="#classes" data-c="header.navClasses">Classes and slots</a><a href="#gallery" data-c="header.navGallery">Gallery</a><a href="#team" data-c="header.navTeam">Team</a><a href="#faq" data-c="header.navFaq">FAQ</a><a class="btn" href="#book" data-c="header.navCta">Reserve a spot</a></nav>
 </div></header>
 
 <main id="top">
 <div class="hero"><div class="wrap">
  <div>
-  <h1 id="heroTitle">A bright start for every little learner</h1>
-  <p class="lead" id="heroText">Warm, attentive daycare on weekdays, and small tuition classes for weekends and weeknights.</p>
-  <div class="cta"><a class="btn" href="#classes">See classes and slots</a><a class="btn ghost" href="#book">Talk to us</a></div>
+  <h1 id="heroTitle" data-c="hero.title">A bright start for every little learner</h1>
+  <p class="lead" id="heroText" data-c="hero.text">Warm, attentive daycare on weekdays, and small tuition classes for weekends and weeknights.</p>
+  <div class="cta"><a class="btn" href="#classes" data-c="hero.primaryButton">See classes and slots</a><a class="btn ghost" href="#book" data-c="hero.secondaryButton">Talk to us</a></div>
   <div class="stats" id="stats"></div>
  </div>
- <div class="heroart"><img id="heroImg" src="images/hero.svg" alt="Children playing with colourful learning blocks"><div class="board"><h3>This week at a glance</h3><p>The number on each time shows spots left.</p><div id="week"></div></div></div>
+ <div class="heroart"><img id="heroImg" data-ci="hero.image" src="images/hero.svg" alt="Children playing with colourful learning blocks"><div class="board"><h3 data-c="hero.boardTitle">This week at a glance</h3><p data-c="hero.boardNote">The number on each time shows spots left.</p><div id="week"></div></div></div>
 </div></div>
 
 <section id="why"><div class="wrap">
- <div class="about"><img id="aboutImg" src="images/g2.svg" alt="Children painting together"><div><h2 id="aboutTitle">Why families choose us</h2><p class="sub" id="aboutText">A calm, cheerful place where children are known by name.</p></div></div>
+ <div class="about"><img id="aboutImg" data-ci="about.image" src="images/g2.svg" alt="Children painting together"><div><h2 id="aboutTitle" data-c="about.title">Why families choose us</h2><p class="sub" id="aboutText" data-c="about.text">A calm, cheerful place where children are known by name.</p></div></div>
  <div class="feat" id="feat"></div>
 </div></section>
-<section id="programmes"><div class="wrap"><h2>Two ways to learn with us</h2><p class="sub">Choose care for the week, tuition for focused learning, or both.</p><div class="prog" id="prog"></div></div></section>
+<section id="programmes"><div class="wrap"><h2 data-c="programmes.heading">Two ways to learn with us</h2><p class="sub" data-c="programmes.intro">Choose care for the week, tuition for focused learning, or both.</p><div class="prog" id="prog"></div></div></section>
 
 <section id="classes"><div class="wrap">
- <h2>Classes and availability</h2>
- <p class="sub" id="note">Choose a class to see how many spots are left.</p>
+ <h2 data-c="classes.heading">Classes and availability</h2>
+ <p class="sub" id="note" data-c="classes.intro">Choose a class to see how many spots are left.</p>
  <div class="ctl"><div class="seg" id="types" aria-label="Class type"></div><div class="seg" id="dayf" aria-label="Day"></div></div>
  <div id="grid"></div>
 </div></section>
 
-<section id="gallery"><div class="wrap"><h2>A day at our centre</h2><p class="sub">Story time, messy art, outdoor play and plenty of laughter.</p><div class="gal" id="gal"></div></div></section>
-<section id="team"><div class="wrap"><h2>Meet our teachers</h2><p class="sub">Qualified, patient and genuinely fond of children.</p><div class="team" id="teachers"></div></div></section>
-<section id="love"><div class="wrap"><h2>What parents say</h2><div class="quotes" id="quotes"></div></div></section>
-<section id="faq"><div class="wrap"><h2>Good to know</h2><div id="faqs" style="margin-top:28px"></div></div></section>
+<section id="gallery"><div class="wrap"><h2 data-c="gallery.heading">A day at our centre</h2><p class="sub" data-c="gallery.intro">Story time, messy art, outdoor play and plenty of laughter.</p><div class="gal" id="gal"></div></div></section>
+<section id="team"><div class="wrap"><h2 data-c="teachers.heading">Meet our teachers</h2><p class="sub" data-c="teachers.intro">Qualified, patient and genuinely fond of children.</p><div class="team" id="teachers"></div></div></section>
+<section id="love"><div class="wrap"><h2 data-c="reviews.heading">What parents say</h2><div class="quotes" id="quotes"></div></div></section>
+<section id="faq"><div class="wrap"><h2 data-c="faq.heading">Good to know</h2><div id="faqs" style="margin-top:28px"></div></div></section>
 <section id="book"><div class="wrap formwrap">
- <div><h2>Reserve a spot</h2><p class="sub">Tell us about your child and choose a class. We will reply within one working day to confirm.</p><ul id="contact"></ul><img class="map" src="images/map.svg" alt="Map showing where to find the centre"></div>
+ <div><h2 data-c="contact.heading">Reserve a spot</h2><p class="sub" data-c="contact.intro">Tell us about your child and choose a class. We will reply within one working day to confirm.</p><ul id="contact"></ul><img class="map" data-ci="contact.mapImage" src="images/map.svg" alt="Map showing where to find the centre"></div>
  <div>
   <form name="booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="f">
    <input type="hidden" name="form-name" value="booking">
@@ -160,9 +160,9 @@ details p{margin-top:12px;color:var(--mute)}
    <label>Child's age<input name="age" required></label>
    <label class="wide">Class<select name="class" id="cls"></select></label>
    <label class="wide">Anything we should know?<textarea name="message" rows="3"></textarea></label>
-   <button class="btn wide" type="submit">Send reservation request</button>
+   <button class="btn wide" type="submit" data-c="contact.formButton">Send reservation request</button>
   </form>
-  <div id="ok" hidden><h2>Thank you</h2><p class="sub" style="margin:auto">We have your request and will be in touch within one working day.</p></div>
+  <div id="ok" hidden><h2 data-c="contact.thankYouTitle">Thank you</h2><p class="sub" style="margin:auto" data-c="contact.thankYouText">We have your request and will be in touch within one working day.</p></div>
  </div>
 </div></section>
 </main>
@@ -177,32 +177,34 @@ const st=c=>left(c)===0?'full':left(c)<=3?'low':'';
 const key=c=>`${c.name} (${c.days.join(', ')} ${t12(c.start)})`;
 let S,C,type='all',day='all';
 
-Promise.all(['settings','schedule'].map(n=>fetch(`content/${n}.json`).then(r=>r.json()))).then(([s,c])=>{
- S=s;C=(c.classes||[]).filter(x=>x.active!==false&&(x.type!=='tuition'||s.tuitionEnabled!==false)).map(x=>({...x,days:x.days||[]}));
+const FILES=['header','hero','about','programmes','schedule','gallery','teachers','reviews','faq','contact','footer'];
+Promise.all(FILES.map(n=>fetch(`content/${n}.json`).then(r=>r.json()))).then(r=>{
+ S=Object.fromEntries(FILES.map((n,i)=>[n==='schedule'?'classes':n,r[i]]));
+ C=(S.classes.classes||[]).filter(x=>x.active!==false&&(x.type!=='tuition'||S.classes.tuitionEnabled!==false)).map(x=>({...x,days:x.days||[]}));
  C.sort((a,b)=>a.type.localeCompare(b.type)||DAYS.indexOf(a.days[0])-DAYS.indexOf(b.days[0])||a.start.localeCompare(b.start));
  init();
 }).catch(()=>{$('#grid').innerHTML='<p class="empty">The schedule could not load. Please refresh, or call us.</p>'});
 
 function init(){
- const set=(id,v)=>v&&($(id).textContent=v);
- set('#brandName',S.name);set('#tag',S.tagline);set('#heroTitle',S.heroTitle);set('#heroText',S.heroText);set('#note',S.availabilityNote);
- document.title=`${S.name} ${S.tagline}`;
- $('#feat').innerHTML=(S.features||[]).map(f=>`<div><span class="dot" style="display:block"></span><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p></div>`).join('');
- $('#contact').innerHTML=[S.phone&&`<a href="tel:${esc(S.phone.replace(/\s/g,''))}">${esc(S.phone)}</a>`,S.email&&`<a href="mailto:${esc(S.email)}">${esc(S.email)}</a>`,esc(S.address),esc(S.hours)].filter(Boolean).map(x=>`<li>${x}</li>`).join('');
- $('#foot').textContent=`© ${new Date().getFullYear()} ${S.name} ${S.tagline}`;
- $('#fname').textContent=S.name+' '+S.tagline;$('#ftag').textContent=S.heroTitle||'';$('#faddr').textContent=S.address||'';$('#fhours').textContent=S.hours||'';
- const img=(id,v)=>v&&($(id).src=v);img('#heroImg',S.heroImage);img('#aboutImg',S.aboutImage);set('#aboutTitle',S.aboutTitle);set('#aboutText',S.aboutText);
- $('#stats').innerHTML=(S.stats||[]).map(x=>`<div><b>${esc(x.value)}</b><span>${esc(x.label)}</span></div>`).join('');
- $('#prog').innerHTML=(S.programmes||[]).filter(p=>p.type!=='tuition'||S.tuitionEnabled!==false).map(p=>`<div class="pp"><img src="${esc(p.image)}" alt=""><div><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p><a class="btn" href="#classes" data-t="${esc(p.type)}">See ${esc(p.type)} slots</a></div></div>`).join('');
- $('#prog').onclick=e=>{const a=e.target.closest('[data-t]');if(a){type=a.dataset.t;draw()}};
- $('#gal').innerHTML=(S.gallery||[]).map(g=>`<figure><img src="${esc(g.image)}" alt="${esc(g.caption)}"><figcaption>${esc(g.caption)}</figcaption></figure>`).join('');
- $('#teachers').innerHTML=(S.teachers||[]).map(t=>`<div><img src="${esc(t.photo)}" alt="${esc(t.name)}"><h3>${esc(t.name)}</h3><p class="r">${esc(t.role)}</p><p>${esc(t.bio)}</p></div>`).join('');
- $('#quotes').innerHTML=(S.testimonials||[]).map(t=>`<blockquote><p>“${esc(t.quote)}”</p><cite>${esc(t.name)}, ${esc(t.detail)}</cite></blockquote>`).join('');
- $('#faqs').innerHTML=(S.faqs||[]).map(f=>`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
- document.querySelector('nav').onclick=()=>document.body.classList.remove('open');
+ const get=(o,p)=>p.split('.').reduce((x,k)=>x&&x[k],o),H=S.header,K=S.contact;
+ document.querySelectorAll('[data-c]').forEach(e=>{const v=get(S,e.dataset.c);if(v)e.textContent=v});
+ document.querySelectorAll('[data-ci]').forEach(e=>{const v=get(S,e.dataset.ci);if(v)e.src=v});
+ document.title=`${H.name} ${H.tagline}`;
+ $('#feat').innerHTML=(S.about.highlights||[]).map(f=>`<div><span class="dot" style="display:block"></span><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p></div>`).join('');
+ $('#contact').innerHTML=[K.phone&&`<a href="tel:${esc(K.phone.replace(/\s/g,''))}">${esc(K.phone)}</a>`,K.email&&`<a href="mailto:${esc(K.email)}">${esc(K.email)}</a>`,esc(K.address),esc(K.hours)].filter(Boolean).map(x=>`<li>${x}</li>`).join('');
+ $('#foot').textContent=S.footer.copyright||`© ${new Date().getFullYear()} ${H.name} ${H.tagline}`;
+ $('#fname').textContent=H.name+' '+H.tagline;$('#ftag').textContent=S.footer.tagline||'';$('#faddr').textContent=K.address||'';$('#fhours').textContent=K.hours||'';
+ $('#stats').innerHTML=(S.hero.stats||[]).map(x=>`<div><b>${esc(x.value)}</b><span>${esc(x.label)}</span></div>`).join('');
  $('#cls').append(new Option('Not sure yet, please advise',''),...C.map(c=>new Option(key(c),key(c))));
  $('#week').innerHTML=DAYS.filter(d=>C.some(c=>c.days.includes(d))).map(d=>`<div class="wr"><b>${d}</b><div>${C.filter(c=>c.days.includes(d)).sort((a,b)=>a.start.localeCompare(b.start)).map(c=>`<span class="pill ${c.type} ${st(c)}" title="${esc(c.name)}">${t12(c.start)} <i>${left(c)||'full'}</i></span>`).join('')}</div></div>`).join('');
+ $('#prog').innerHTML=(S.programmes.items||[]).filter(p=>p.type!=='tuition'||S.classes.tuitionEnabled!==false).map(p=>`<div class="pp"><img src="${esc(p.image)}" alt=""><div><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p><a class="btn" href="#classes" data-t="${esc(p.type)}">See ${esc(p.type)} slots</a></div></div>`).join('');
+ $('#prog').onclick=e=>{const a=e.target.closest('[data-t]');if(a){type=a.dataset.t;draw()}};
  $('#grid').onclick=e=>{const b=e.target.closest('[data-k]');if(b){$('#cls').value=b.dataset.k;$('#book').scrollIntoView()}};
+ $('#gal').innerHTML=(S.gallery.photos||[]).map(g=>`<figure><img src="${esc(g.image)}" alt="${esc(g.caption)}"><figcaption>${esc(g.caption)}</figcaption></figure>`).join('');
+ $('#teachers').innerHTML=(S.teachers.people||[]).map(t=>`<div><img src="${esc(t.photo)}" alt="${esc(t.name)}"><h3>${esc(t.name)}</h3><p class="r">${esc(t.role)}</p><p>${esc(t.bio)}</p></div>`).join('');
+ $('#quotes').innerHTML=(S.reviews.items||[]).map(t=>`<blockquote><p>“${esc(t.quote)}”</p><cite>${esc(t.name)}, ${esc(t.detail)}</cite></blockquote>`).join('');
+ $('#faqs').innerHTML=(S.faq.items||[]).map(f=>`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
+ document.querySelector('nav').onclick=()=>document.body.classList.remove('open');
  draw();
 }
 const chips=(id,arr,cur,fn)=>{$(id).innerHTML=arr.map(v=>`<button class="chip${v===cur()?' on':''}" data-v="${v}">${v==='all'?'All':v[0].toUpperCase()+v.slice(1)}</button>`).join('');$(id).onclick=e=>{const b=e.target.closest('button');if(b){fn(b.dataset.v);draw()}}};

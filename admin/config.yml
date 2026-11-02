@@ -1,89 +1,163 @@
 backend:
   name: github
-  repo: niicknicholasafk/little-sprouts-website
+  repo: gamingniickafk/little-sprouts-website
   branch: main
 media_folder: images/uploads
 public_folder: /images/uploads
 publish_mode: simple
 collections:
-  - name: site
-    label: Website
+  - name: page
+    label: Website, top to bottom
+    description: Sections are listed in the same order as they appear on your website. Number 1 is the top of the page.
     files:
-      - name: classes
-        label: Classes and slots
-        file: content/schedule.json
+      - name: header
+        label: "1. Menu bar and logo (very top)"
+        file: content/header.json
         format: json
         fields:
-          - label: Classes
-            name: classes
-            widget: list
-            label_singular: Class
-            summary: "{{fields.name}} ({{fields.type}})"
-            fields:
-              - {label: Show on website, name: active, widget: boolean, default: true, hint: "Switch off to hide this class without deleting it"}
-              - {label: Class name, name: name, widget: string}
-              - label: Type
-                name: type
-                widget: select
-                options: [{label: Daycare, value: daycare}, {label: Tuition, value: tuition}]
-              - {label: Short description, name: description, widget: text}
-              - {label: Days, name: days, widget: select, multiple: true, options: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]}
-              - {label: Start time, name: start, widget: datetime, date_format: false, time_format: "HH:mm", format: "HH:mm"}
-              - {label: End time, name: end, widget: datetime, date_format: false, time_format: "HH:mm", format: "HH:mm"}
-              - {label: Ages, name: ages, widget: string, hint: "For example 4 to 6"}
-              - {label: Total places, name: capacity, widget: number, value_type: int, min: 0}
-              - {label: Places already booked, name: booked, widget: number, value_type: int, min: 0, hint: "Spots left = total places minus booked"}
-              - {label: Price, name: price, widget: string, hint: "For example $280 / month"}
-      - name: settings
-        label: Centre details and homepage text
-        file: content/settings.json
+          - {label: Centre name (next to logo), name: name, widget: string}
+          - {label: Subtitle (under centre name), name: tagline, widget: string}
+          - {label: "Menu link 1", name: navAbout, widget: string}
+          - {label: "Menu link 2", name: navProgrammes, widget: string}
+          - {label: "Menu link 3", name: navClasses, widget: string}
+          - {label: "Menu link 4", name: navGallery, widget: string}
+          - {label: "Menu link 5", name: navTeam, widget: string}
+          - {label: "Menu link 6", name: navFaq, widget: string}
+          - {label: "Yellow button in menu", name: navCta, widget: string}
+      - name: hero
+        label: "2. Hero banner (first screen)"
+        file: content/hero.json
         format: json
         fields:
-          - {label: Show tuition classes, name: tuitionEnabled, widget: boolean, default: true, hint: "Master switch: turns every tuition class on or off"}
-          - {label: Centre name, name: name, widget: string}
-          - {label: Subtitle, name: tagline, widget: string}
-          - {label: Homepage headline, name: heroTitle, widget: string}
-          - {label: Homepage intro, name: heroText, widget: text}
-          - {label: Availability note, name: availabilityNote, widget: string}
-          - label: Highlights
-            name: features
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-          - {label: Hero image, name: heroImage, widget: image, required: false}
-          - label: Homepage numbers
+          - {label: Big headline, name: title, widget: string}
+          - {label: Intro text under headline, name: text, widget: text}
+          - {label: Yellow button, name: primaryButton, widget: string}
+          - {label: Outline button, name: secondaryButton, widget: string}
+          - label: Three numbers under the buttons
             name: stats
             widget: list
             fields: [{label: Number, name: value, widget: string}, {label: Label, name: label, widget: string}]
-          - {label: About headline, name: aboutTitle, widget: string}
-          - {label: About text, name: aboutText, widget: text}
-          - {label: About image, name: aboutImage, widget: image, required: false}
-          - label: Programmes
-            name: programmes
+          - {label: Banner photo (right side), name: image, widget: image, required: false}
+          - {label: Weekly board title, name: boardTitle, widget: string}
+          - {label: Weekly board note, name: boardNote, widget: string}
+      - name: about
+        label: "3. About us and highlights"
+        file: content/about.json
+        format: json
+        fields:
+          - {label: Photo (left), name: image, widget: image, required: false}
+          - {label: Headline, name: title, widget: string}
+          - {label: Paragraph, name: text, widget: text}
+          - label: Three highlights below
+            name: highlights
             widget: list
+            fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}]
+      - name: programmes
+        label: "4. Programmes (daycare and tuition panels)"
+        file: content/programmes.json
+        format: json
+        fields:
+          - {label: Section heading, name: heading, widget: string}
+          - {label: Text under heading, name: intro, widget: string}
+          - label: Panels
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
             fields:
-              - {label: Type, name: type, widget: select, options: [{label: Daycare, value: daycare}, {label: Tuition, value: tuition}]}
+              - {label: Photo, name: image, widget: image, required: false}
               - {label: Title, name: title, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Image, name: image, widget: image}
-          - label: Gallery
-            name: gallery
+              - {label: Type, name: type, widget: select, options: [{label: Daycare, value: daycare}, {label: Tuition, value: tuition}]}
+      - name: schedule
+        label: "5. Classes and slots (timetable)"
+        file: content/schedule.json
+        format: json
+        fields:
+          - {label: Show tuition classes on website, name: tuitionEnabled, widget: boolean, default: true, hint: "Master switch: turns every tuition class on or off"}
+          - {label: Section heading, name: heading, widget: string}
+          - {label: Text under heading, name: intro, widget: string}
+          - label: Classes (listed top to bottom as on the page)
+            name: classes
             widget: list
+            label_singular: Class
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Show on website, name: active, widget: boolean, default: true}
+              - {label: Start time, name: start, widget: datetime, date_format: false, time_format: "HH:mm", format: "HH:mm"}
+              - {label: End time, name: end, widget: datetime, date_format: false, time_format: "HH:mm", format: "HH:mm"}
+              - {label: Type, name: type, widget: select, options: [{label: Daycare, value: daycare}, {label: Tuition, value: tuition}]}
+              - {label: Class name, name: name, widget: string}
+              - {label: Short description, name: description, widget: text}
+              - {label: Days, name: days, widget: select, multiple: true, options: [Mon, Tue, Wed, Thu, Fri, Sat, Sun]}
+              - {label: Ages, name: ages, widget: string}
+              - {label: Total places, name: capacity, widget: number, value_type: int, min: 0}
+              - {label: Places already booked, name: booked, widget: number, value_type: int, min: 0, hint: "Spots left = total places minus booked"}
+              - {label: Price, name: price, widget: string}
+      - name: gallery
+        label: "6. Photo gallery"
+        file: content/gallery.json
+        format: json
+        fields:
+          - {label: Section heading, name: heading, widget: string}
+          - {label: Text under heading, name: intro, widget: string}
+          - label: Photos
+            name: photos
+            widget: list
+            summary: "{{fields.caption}}"
             fields: [{label: Photo, name: image, widget: image}, {label: Caption, name: caption, widget: string}]
+      - name: teachers
+        label: "7. Teachers"
+        file: content/teachers.json
+        format: json
+        fields:
+          - {label: Section heading, name: heading, widget: string}
+          - {label: Text under heading, name: intro, widget: string}
           - label: Teachers
-            name: teachers
+            name: people
             widget: list
-            fields: [{label: Name, name: name, widget: string}, {label: Role, name: role, widget: string}, {label: Short bio, name: bio, widget: text}, {label: Photo, name: photo, widget: image}]
-          - label: Parent reviews
-            name: testimonials
+            summary: "{{fields.name}}"
+            fields: [{label: Photo, name: photo, widget: image}, {label: Name, name: name, widget: string}, {label: Role, name: role, widget: string}, {label: Short bio, name: bio, widget: text}]
+      - name: reviews
+        label: "8. Parent reviews"
+        file: content/reviews.json
+        format: json
+        fields:
+          - {label: Section heading, name: heading, widget: string}
+          - label: Reviews
+            name: items
             widget: list
-            fields: [{label: Quote, name: quote, widget: text}, {label: Parent name, name: name, widget: string}, {label: Child detail, name: detail, widget: string}]
-          - label: FAQ
-            name: faqs
+            summary: "{{fields.name}}"
+            fields: [{label: Review, name: quote, widget: text}, {label: Parent name, name: name, widget: string}, {label: Child detail, name: detail, widget: string}]
+      - name: faq
+        label: "9. FAQ (questions and answers)"
+        file: content/faq.json
+        format: json
+        fields:
+          - {label: Section heading, name: heading, widget: string}
+          - label: Questions
+            name: items
             widget: list
+            summary: "{{fields.q}}"
             fields: [{label: Question, name: q, widget: string}, {label: Answer, name: a, widget: text}]
+      - name: contact
+        label: "10. Reservation form and contact details"
+        file: content/contact.json
+        format: json
+        fields:
+          - {label: Section heading, name: heading, widget: string}
+          - {label: Text under heading, name: intro, widget: text}
           - {label: Phone, name: phone, widget: string}
           - {label: Email, name: email, widget: string}
           - {label: Address, name: address, widget: string}
           - {label: Opening hours, name: hours, widget: string}
+          - {label: Map picture, name: mapImage, widget: image, required: false}
+          - {label: Form submit button text, name: formButton, widget: string}
+          - {label: Thank-you title (after sending), name: thankYouTitle, widget: string}
+          - {label: Thank-you message, name: thankYouText, widget: text}
+      - name: footer
+        label: "11. Footer (very bottom)"
+        file: content/footer.json
+        format: json
+        fields:
+          - {label: Footer tagline, name: tagline, widget: string}
+          - {label: Copyright line, name: copyright, widget: string}

@@ -1,102 +1,105 @@
 {
-  "classes": [
-    {
-      "start": "07:30",
-      "active": true,
-      "booked": 14,
-      "price": "RM300 / month",
-      "name": "Morning daycare",
-      "ages": "2 to 6",
-      "days": [
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri"
-      ],
-      "capacity": 20,
-      "type": "daycare",
-      "end": "12:30",
-      "description": "Breakfast, circle time, creative play and a gentle nap."
-    },
-    {
-      "start": "13:00",
-      "active": true,
-      "booked": 20,
-      "price": "$320 / month",
-      "name": "Afternoon daycare",
-      "ages": "3 to 9",
-      "days": [
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri"
-      ],
-      "capacity": 20,
-      "type": "daycare",
-      "end": "18:00",
-      "description": "Lunch, homework help, outdoor play and story time."
-    },
-    {
-      "start": "09:30",
-      "active": true,
-      "booked": 5,
-      "price": "$90 / month",
-      "name": "Little mathematicians",
-      "ages": "5 to 7",
-      "days": [
-        "Sat"
-      ],
-      "capacity": 8,
-      "type": "tuition",
-      "end": "11:00",
-      "description": "Numbers, shapes and patterns through games and puzzles."
-    },
-    {
-      "start": "11:30",
-      "active": true,
-      "booked": 7,
-      "price": "$90 / month",
-      "name": "Phonics and storytime",
-      "ages": "4 to 6",
-      "days": [
-        "Sat"
-      ],
-      "capacity": 8,
-      "type": "tuition",
-      "end": "13:00",
-      "description": "Sounds, first words and a love of books."
-    },
-    {
-      "start": "19:00",
-      "active": true,
-      "booked": 4,
-      "price": "$85 / month",
-      "name": "Science explorers",
-      "ages": "8 to 11",
-      "days": [
-        "Wed"
-      ],
-      "capacity": 10,
-      "type": "tuition",
-      "end": "20:00",
-      "description": "Simple experiments that explain how the world works."
-    },
-    {
-      "start": "10:00",
-      "active": true,
-      "booked": 3,
-      "price": "$95 / month",
-      "name": "Creative English",
-      "ages": "7 to 9",
-      "days": [
-        "Sun"
-      ],
-      "capacity": 10,
-      "type": "tuition",
-      "end": "11:30",
-      "description": "Writing, speaking and confident self-expression."
-    }
-  ]
+ "tuitionEnabled": true,
+ "heading": "Classes and availability",
+ "intro": "Spots are updated by our team. Reserve online and we will confirm within one working day.",
+ "classes": [
+  {
+   "active": true,
+   "name": "Morning daycare",
+   "type": "daycare",
+   "description": "Breakfast, circle time, creative play and a gentle nap.",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "07:30",
+   "end": "12:30",
+   "ages": "2 to 6",
+   "capacity": 20,
+   "booked": 14,
+   "price": "$300 / month"
+  },
+  {
+   "active": true,
+   "name": "Afternoon daycare",
+   "type": "daycare",
+   "description": "Lunch, homework help, outdoor play and story time.",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "13:00",
+   "end": "18:00",
+   "ages": "3 to 9",
+   "capacity": 20,
+   "booked": 20,
+   "price": "$320 / month"
+  },
+  {
+   "active": true,
+   "name": "Little mathematicians",
+   "type": "tuition",
+   "description": "Numbers, shapes and patterns through games and puzzles.",
+   "days": [
+    "Sat"
+   ],
+   "start": "09:30",
+   "end": "11:00",
+   "ages": "5 to 7",
+   "capacity": 8,
+   "booked": 5,
+   "price": "$90 / month"
+  },
+  {
+   "active": true,
+   "name": "Phonics and storytime",
+   "type": "tuition",
+   "description": "Sounds, first words and a love of books.",
+   "days": [
+    "Sat"
+   ],
+   "start": "11:30",
+   "end": "13:00",
+   "ages": "4 to 6",
+   "capacity": 8,
+   "booked": 7,
+   "price": "$90 / month"
+  },
+  {
+   "active": true,
+   "name": "Science explorers",
+   "type": "tuition",
+   "description": "Simple experiments that explain how the world works.",
+   "days": [
+    "Wed"
+   ],
+   "start": "19:00",
+   "end": "20:00",
+   "ages": "8 to 11",
+   "capacity": 10,
+   "booked": 4,
+   "price": "$85 / month"
+  },
+  {
+   "active": true,
+   "name": "Creative English",
+   "type": "tuition",
+   "description": "Writing, speaking and confident self-expression.",
+   "days": [
+    "Sun"
+   ],
+   "start": "10:00",
+   "end": "11:30",
+   "ages": "7 to 9",
+   "capacity": 10,
+   "booked": 3,
+   "price": "$95 / month"
+  }
+ ]
 }

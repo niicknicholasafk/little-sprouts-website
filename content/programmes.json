@@ -1,0 +1,18 @@
+{
+ "heading": "Two ways to learn with us",
+ "intro": "Choose care for the week, tuition for focused learning, or both.",
+ "items": [
+  {
+   "type": "daycare",
+   "title": "Weekday daycare",
+   "text": "Safe, nurturing care from Monday to Friday, with meals, rest, creative play and outdoor time built into the day.",
+   "image": "images/g4.svg"
+  },
+  {
+   "type": "tuition",
+   "title": "Tuition classes",
+   "text": "Small-group classes on weekends and weeknights in maths, English and science, taught through games and hands-on activities.",
+   "image": "images/g5.svg"
+  }
+ ]
+}

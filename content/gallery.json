@@ -1,0 +1,26 @@
+{
+ "heading": "A day at our centre",
+ "intro": "Story time, messy art, outdoor play and plenty of laughter.",
+ "photos": [
+  {
+   "image": "images/g1.svg",
+   "caption": "Story time"
+  },
+  {
+   "image": "images/g3.svg",
+   "caption": "Little scientists"
+  },
+  {
+   "image": "images/g2.svg",
+   "caption": "Art corner"
+  },
+  {
+   "image": "images/g6.svg",
+   "caption": "Music and movement"
+  },
+  {
+   "image": "images/g4.svg",
+   "caption": "Outdoor play"
+  }
+ ]
+}

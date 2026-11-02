@@ -1,0 +1,23 @@
+{
+ "title": "A bright start for every little learner",
+ "text": "Warm, attentive daycare on weekdays, and small tuition classes for curious minds on weekends and weeknights.",
+ "primaryButton": "See classes and slots",
+ "secondaryButton": "Talk to us",
+ "stats": [
+  {
+   "value": "12 years",
+   "label": "caring for local families"
+  },
+  {
+   "value": "1 to 6",
+   "label": "teacher to child ratio"
+  },
+  {
+   "value": "200+",
+   "label": "happy children so far"
+  }
+ ],
+ "image": "images/hero.svg",
+ "boardTitle": "This week at a glance",
+ "boardNote": "The number on each time shows spots left."
+}

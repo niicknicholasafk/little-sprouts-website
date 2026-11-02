@@ -1,0 +1,12 @@
+{
+ "heading": "Reserve a spot",
+ "intro": "Tell us about your child and choose a class. We will reply within one working day to confirm.",
+ "phone": "+60 12 345 6789",
+ "email": "hello@example.com",
+ "address": "123 Example Street",
+ "hours": "Monday to Friday, 7:30 am to 6:00 pm",
+ "mapImage": "images/map.svg",
+ "formButton": "Send reservation request",
+ "thankYouTitle": "Thank you",
+ "thankYouText": "We have your request and will be in touch within one working day."
+}

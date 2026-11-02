@@ -25,3 +25,10 @@ Upload photos in the CMS (any image field) or replace files in `images/`. Sugges
 - Teachers (3): 600 x 600 px, face centred
 - Map: use a screenshot of your location
 Use your own photos with parents' written consent, or licensed stock images. Keep a mix of children from your community.
+
+## Editing in the CMS (/admin)
+The sidebar lists the page in order, top to bottom: 1 Menu bar, 2 Hero banner, 3 About, 4 Programmes, 5 Classes and slots, 6 Gallery, 7 Teachers, 8 Parent reviews, 9 FAQ, 10 Reservation form and contact, 11 Footer.
+Open a number, change the fields (they are also in page order), press Publish. The site updates in about a minute.
+
+## Updating an existing GitHub repository with a new zip
+Unzip, open your repository, choose Add file, then Upload files, drag in everything (it overwrites old files), and Commit changes. The old `content/settings.json` is no longer used and can be deleted.

@@ -1,0 +1,24 @@
+{
+ "heading": "Meet our teachers",
+ "intro": "Qualified, patient and genuinely fond of children.",
+ "people": [
+  {
+   "name": "Ms. Sofia Tan",
+   "role": "Head of daycare",
+   "bio": "Fifteen years in early childhood education. Loves story time and muddy boots.",
+   "photo": "images/t1.svg"
+  },
+  {
+   "name": "Mr. Daniel Reyes",
+   "role": "Maths and science tutor",
+   "bio": "Turns tricky sums and big questions into games children ask to play again.",
+   "photo": "images/t2.svg"
+  },
+  {
+   "name": "Ms. Hannah Okafor",
+   "role": "English and phonics tutor",
+   "bio": "Helps young readers find their voice, one confident sentence at a time.",
+   "photo": "images/t3.svg"
+  }
+ ]
+}
