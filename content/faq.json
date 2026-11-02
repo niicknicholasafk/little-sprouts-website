@@ -1,25 +1,25 @@
 {
- "heading": "Good to know",
- "items": [
-  {
-   "q": "What ages do you accept?",
-   "a": "Daycare is for ages 2 to 9. Tuition classes are grouped by age, shown on each class."
-  },
-  {
-   "q": "How do reservations work?",
-   "a": "Choose a class, send the form, and we confirm within one working day. Spots are held once confirmed."
-  },
-  {
-   "q": "Can we try a class first?",
-   "a": "Yes. Ask for a trial session in the message box and we will arrange one when a spot is open."
-  },
-  {
-   "q": "What if a class is full?",
-   "a": "Join the waitlist from the class and we will contact you as soon as a place opens."
-  },
-  {
-   "q": "What is included in daycare fees?",
-   "a": "Supervised care, learning activities, snacks and lunch. Please tell us about any allergies when you enrol."
-  }
- ]
+  "heading": "Frequently Asked Questions",
+  "items": [
+    {
+      "q": "What ages do you accept?",
+      "a": "Daycare is for ages 2 to 9. Tuition classes are grouped by age, shown on each class."
+    },
+    {
+      "q": "How do reservations work?",
+      "a": "Choose a class, send the form, and we confirm within one working day. Spots are held once confirmed."
+    },
+    {
+      "q": "Can we try a class first?",
+      "a": "Yes. Ask for a trial session in the message box and we will arrange one when a spot is open."
+    },
+    {
+      "q": "What if a class is full?",
+      "a": "Join the waitlist from the class and we will contact you as soon as a place opens."
+    },
+    {
+      "q": "What is included in daycare fees?",
+      "a": "Supervised care, learning activities, snacks and lunch. Please tell us about any allergies when you enrol."
+    }
+  ]
 }
