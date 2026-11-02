@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gamingniickafk/little-sprouts-website
+  repo: niicknicholasafk/little-sprouts-website
   branch: main
 media_folder: images/uploads
 public_folder: /images/uploads
