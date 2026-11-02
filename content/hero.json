@@ -1,23 +1,23 @@
 {
- "title": "A bright start for every little learner",
- "text": "Warm, attentive daycare on weekdays, and small tuition classes for curious minds on weekends and weeknights.",
- "primaryButton": "See classes and slots",
- "secondaryButton": "Talk to us",
- "stats": [
-  {
-   "value": "12 years",
-   "label": "caring for local families"
-  },
-  {
-   "value": "1 to 6",
-   "label": "teacher to child ratio"
-  },
-  {
-   "value": "200+",
-   "label": "happy children so far"
-  }
- ],
- "image": "images/hero.svg",
- "boardTitle": "This week at a glance",
- "boardNote": "The number on each time shows spots left."
+  "title": "Where little minds grow with confidence",
+  "text": "A welcoming learning centre offering attentive weekday childcare and small-group tuition on weekends and weeknights. We help children build confidence, develop essential skills and enjoy learning in a caring environment.",
+  "primaryButton": "See classes and slots",
+  "secondaryButton": "Speak with us",
+  "stats": [
+    {
+      "value": "Over 8 Years",
+      "label": "Experiences"
+    },
+    {
+      "value": "1 to 6",
+      "label": "teacher to child ratio"
+    },
+    {
+      "value": "200+",
+      "label": "happy children so far"
+    }
+  ],
+  "image": "/images/uploads/learning-mandarin-fun.jpg",
+  "boardTitle": "This Week's Class Live Schedule",
+  "boardNote": "The number on each time shows spots left."
 }
