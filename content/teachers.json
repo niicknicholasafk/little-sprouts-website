@@ -1,24 +1,24 @@
 {
- "heading": "Meet our teachers",
- "intro": "Qualified, patient and genuinely fond of children.",
- "people": [
-  {
-   "name": "Ms. Sofia Tan",
-   "role": "Head of daycare",
-   "bio": "Fifteen years in early childhood education. Loves story time and muddy boots.",
-   "photo": "images/t1.svg"
-  },
-  {
-   "name": "Mr. Daniel Reyes",
-   "role": "Maths and science tutor",
-   "bio": "Turns tricky sums and big questions into games children ask to play again.",
-   "photo": "images/t2.svg"
-  },
-  {
-   "name": "Ms. Hannah Okafor",
-   "role": "English and phonics tutor",
-   "bio": "Helps young readers find their voice, one confident sentence at a time.",
-   "photo": "images/t3.svg"
-  }
- ]
+  "heading": "Hear what our student says",
+  "intro": "genuinely from their heart and minds",
+  "people": [
+    {
+      "name": "Junya",
+      "role": "Student",
+      "bio": "ABCDEFG I Love teacher cornie the most!",
+      "photo": "images/t1.svg"
+    },
+    {
+      "name": "Some Name",
+      "role": "Student",
+      "bio": "I only want teacher cornie to teach us because I love studying with her",
+      "photo": "images/t2.svg"
+    },
+    {
+      "name": "Another name",
+      "role": "Student",
+      "bio": "Out of so many teachers, I want teacher cornie the most",
+      "photo": "images/t3.svg"
+    }
+  ]
 }
