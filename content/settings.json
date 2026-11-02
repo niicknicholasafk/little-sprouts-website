@@ -31,12 +31,12 @@
   ],
   "gallery": [
     {
-      "image": "images/g1.svg",
+      "image": "/images/uploads/mag_cause_photo-scaled.jpg",
       "caption": "Story time"
     },
     {
-      "image": "images/g3.svg",
-      "caption": "Little scientists"
+      "image": "/images/uploads/fb1.jpg",
+      "caption": "Fun & Games"
     },
     {
       "image": "images/g2.svg",
