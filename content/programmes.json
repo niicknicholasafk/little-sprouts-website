@@ -1,18 +1,18 @@
 {
- "heading": "Two ways to learn with us",
- "intro": "Choose care for the week, tuition for focused learning, or both.",
- "items": [
-  {
-   "type": "daycare",
-   "title": "Weekday daycare",
-   "text": "Safe, nurturing care from Monday to Friday, with meals, rest, creative play and outdoor time built into the day.",
-   "image": "images/g4.svg"
-  },
-  {
-   "type": "tuition",
-   "title": "Tuition classes",
-   "text": "Small-group classes on weekends and weeknights in maths, English and science, taught through games and hands-on activities.",
-   "image": "images/g5.svg"
-  }
- ]
+  "heading": "Care and Learning, Designed Around Your Child",
+  "intro": "Whether your family needs dependable weekday childcare, focused academic support or a combination of both, our programmes offer a welcoming space for children to learn, develop and feel at home.",
+  "items": [
+    {
+      "type": "daycare",
+      "title": "Weekday daycare",
+      "text": "A caring and structured environment where children can enjoy meaningful activities, develop social skills and feel supported throughout the day.",
+      "image": "images/g4.svg"
+    },
+    {
+      "type": "tuition",
+      "title": "Small-Group Tuition Classes",
+      "text": "Focused learning sessions designed to strengthen understanding, build confidence and support each child's academic progress.",
+      "image": "images/g5.svg"
+    }
+  ]
 }
