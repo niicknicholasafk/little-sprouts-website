@@ -1,12 +1,12 @@
 {
- "heading": "Reserve a spot",
- "intro": "Tell us about your child and choose a class. We will reply within one working day to confirm.",
- "phone": "+60 12 345 6789",
- "email": "hello@example.com",
- "address": "123 Example Street",
- "hours": "Monday to Friday, 7:30 am to 6:00 pm",
- "mapImage": "images/map.svg",
- "formButton": "Send reservation request",
- "thankYouTitle": "Thank you",
- "thankYouText": "We have your request and will be in touch within one working day."
+  "heading": "Reserve a spot",
+  "thankYouText": "We have received your request and will be in touch soonest.",
+  "thankYouTitle": "Thank you",
+  "intro": "We'd love to learn more about your child and help you find the right programme.\n\nShare a few details below, and our team will get in touch within one working day to discuss class availability, answer your questions and guide you through the next steps.\n\nWe look forward to welcoming your family to Little Sprouts Learning Centre.",
+  "phone": "+60 12 345 6789",
+  "hours": "Monday to Friday, 7:30 am to 6:00 pm",
+  "address": "123 Example Street",
+  "formButton": "Send reservation request",
+  "email": "hello@example.com",
+  "mapImage": "images/map.svg"
 }
